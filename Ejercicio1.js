@@ -10,15 +10,16 @@ Let:
 Const:*/
 
 // Camel case:
-let userName;
+let userName = "John Doe";
 
 // Pascal case:
-let UserName;
+var UserName = "John Doe";
 
 // Snake case:
-let user_name;
+const user_name = "John Doe";
 
-// Kebab case:
-let user-name; // No es válido en JavaScript
+// Kebab case: No se puede usar en JavaScript por el guión
 
-// Var: Se utiliza para declarar variables que pueden ser reasignadas y tienen un alcance global o de función. Sin embargo, su uso no es recomendado debido a problemas de hoisting y alcance.
+// Var: Se utiliza para declarar variables globales y pueden ser modificadas y usadas en cualquier parte del codigo.
+// Let: Se utiliza para declarar variables de bloque y pueden ser modificadas pero solo dentro del bloque donde fueron declaradas.
+// Const: Se utiliza para declarar variables que no pueden ser modificadas y se inicializan al momento de su declaración.
