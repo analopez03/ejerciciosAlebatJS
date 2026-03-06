@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action="#"
+      method="post"
+      target="_blank"
+      id="formulario"
+      aria-label="Formulario de registro"
+    >
+      <label for="username">Nombre Usuario</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        class="texto"
+        placeholder="Name"
+        required
+        aria-describedby="username"
+      />
+
+      <input
+        type="text"
+        name="last"
+        id="apellido"
+        class="texto"
+        placeholder="Last Name"
+        required
+        aria-describedby="apellido"
+      />
+      <input
+        type="number"
+        name="age"
+        id="edad"
+        class="texto"
+        placeholder="Age"
+        required
+        aria-describedby="edad"
+      />
+      <input
+        type="email"
+        name="email"
+        id="correo"
+        class="texto"
+        placeholder="Email"
+        required
+        aria-describedby="correo"
+      />
+      <label for="terms-radio"
+        >Agree to the terms?
+        <input
+          type="radio"
+          name="terminos"
+          value="aceptados"
+          id="terms"
+          role="radio"
+          required
+          aria-describedby="terminos con radio"
+        />
+      </label>
+
+      <label for="terms-checkbox"
+        >Agree to the terms?
+        <input
+          type="checkbox"
+          name="terminos2"
+          value="aceptados"
+          id="terms"
+          required
+          role="checkbox"
+          aria-describedby="terminos con checkbox"
+        />
+      </label>
+      <button type="submit" id="enviar" role="button">Submit</button>
+    </form>
+  </body>
+</html>
