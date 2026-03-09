@@ -1,0 +1,9 @@
+/*Ejercicio 2, reset
+Crea un reset.css personalizado, como tú quieras*/
+
+html, body, div, span, h1, h2, p, a, img, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
