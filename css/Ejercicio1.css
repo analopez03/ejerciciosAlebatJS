@@ -1,0 +1,36 @@
+/*Ejercicio 1, custom properties
+Crea un listado de custom properties que contengan:
+
+Colores
+Tamaño de fuentes
+Transitions
+Úsalos en un ejemplo sencillo con:
+
+h1
+h2
+h3
+Button (con un scale)*/
+
+:root{
+    --text-color-h1: #007bff;
+    --text-color-h2: #6c757d;
+    --text-color-h3: #17a2b8;
+    --font-size-h1: 2rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.2rem;
+}
+
+h1{
+    color: var(--text-color-h1);
+    font-size: var(--font-size-h1);
+}
+
+h2{
+    color: var(--text-color-h2);
+    font-size: var(--font-size-h2);
+}
+
+h3{
+    color: var(--text-color-h3);
+    font-size: var(--font-size-h3);
+}
