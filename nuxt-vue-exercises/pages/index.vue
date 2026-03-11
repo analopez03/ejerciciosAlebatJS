@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  layout: "header-footer",
+});
+</script>
 
 <template>
   <div>

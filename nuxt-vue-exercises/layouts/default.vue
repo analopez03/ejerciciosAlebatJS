@@ -9,6 +9,12 @@
         class="bg-green-400 text-white px-4 py-2 m-2 rounded"
         >Catalogo</nuxt-link
       >
+
+      <nuxt-link
+        to="/Products"
+        class="bg-red-400 text-white px-4 py-2 m-2 rounded"
+        >Productos</nuxt-link
+      >
     </header>
 
     <main>
@@ -18,5 +24,6 @@
 
   <footer>
     <p>Copyright © 2024</p>
+    <Rrss />
   </footer>
 </template>
